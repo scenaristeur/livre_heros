@@ -17,11 +17,18 @@ api_key="zer"
 
 completion = client.chat.completions.create(
   model="gpt-3.5-turbo",
-  messages=[
-    {"role": "system", "content": "You are a poetic assistant, skilled in explaining complex programming concepts with creative flair."},
-    {"role": "user", "content": "Compose a poem that explains the concept of recursion in programming."}
+  # messages=[
+  #   {"role": "system", "content": "You are a poetic assistant, skilled in explaining complex programming concepts with creative flair."},
+  #   {"role": "user", "content": "Compose a poem that explains the concept of recursion in programming."}
+  # ]
+    messages=[
+    {"role": "system", "content": "Tu es un assistant poétique, habile à expliquer des concepts de programmation complexes avec un flair créatif."},
+   # {"role": "user", "content": "Compose un poème qui explique le concept de récursivité en programmation."}
+     {"role": "user", "content": "Compose un poème qui explique les trois concepts de navigation en React Native."}
   ]
 )
 
 
 print(completion.choices[0].message)
+
+
