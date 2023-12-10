@@ -44,7 +44,7 @@ a voir :
 # AI dungeons
 - https://aidungeon.com/
 - https://writeholo.com/
-
+- https://store.steampowered.com/app/1889620/AI_Roguelite/
 # infinite.js
 
 Enter something ("quit" to exit): je lis les instructions
